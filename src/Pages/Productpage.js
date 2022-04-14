@@ -31,7 +31,7 @@ const dbRef = ref(db);
 
 function Productpage() {
   // const contractAddress = "0x7ba56e5CcAdF1592180Ea7414673e475c39EF808";
-  const contractAddress = "0x089ab39F3f9B0dC678aF2f7f572383E0d2D3C6ee";
+  const contractAddress = "0xa1a30f4Be766bFd1F10F9c56F9B0FeDeB4064FC2";
   const [ListOfProduct, setListOfProduct] = useState();
   const [isConnected, setIsConnected] = useState(false);
   const [formIsOpen, setFormIsOpen] = useState(false);
